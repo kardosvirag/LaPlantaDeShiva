@@ -64,6 +64,7 @@ nav a{
     margin: 0 15px;
 }
 
+
 nav a:last-child{
     margin-right: 0;
 }
@@ -363,7 +364,7 @@ footer .tickets{
     padding-top:0px;
 }
 
-.tickets a {
+footer .tickets a {
     text-transform: uppercase;
     font-weight: 200;
     font-size: 16px;

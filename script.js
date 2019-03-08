@@ -12,7 +12,10 @@ function hide_container(){
     }
 }
 
-//scroll
+//scroll to section
+
+//html: link and div names have to be same
+//<a href="#welcome"> - <div id="welcome">
 $("nav").find("a").click(function(e) {
     e.preventDefault();
     var section = $(this).attr("href");
@@ -21,9 +24,3 @@ $("nav").find("a").click(function(e) {
     });
 });
 
-//html: link and div names have to be same
-//<a href="#welcome"> - <div id="welcome">
-
-$(function() {
-    $('nav a[href^="#' + location.pathname.split("#")[1] + '"]').addClass('active');
-  });
