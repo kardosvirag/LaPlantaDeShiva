@@ -40,7 +40,7 @@ p{
 }
 
 header{
-    background: url(images/HeaderB.jpg) no-repeat;
+    background: url(images/header.jpg) no-repeat 0 0;
     width: 100%;
     background-position: center;
     background-size: cover;
