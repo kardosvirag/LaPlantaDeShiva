@@ -96,12 +96,20 @@
                         </div>
                     </div>
              </div>  
-            <div class="strech">
+            <div class="strech"> 
                 <div id="bilder_galery">
-                    <button id="left_arrow"></button>
+                    <button id="left_arrow" onclick="showSlides()"></button>
                     <div id="pictures_container">
-                    <img src="images/bildergalery.jpg" alt="Angela Eiter">
-                    <button id="right_arrow"></button>
+                        <div class="mySlides">
+                            <img src="images/bildergalery.jpg" alt="Angela Eiter">
+                        </div>
+                        <div class="mySlides">
+                            <img src="images/mett_and_greet.jpg" alt="Angela Eiter">
+                        </div>
+                        <div class="mySlides">
+                            <img src="images/inhalt.jpg" alt="Angela Eiter">
+                        </div>
+                    <button id="right_arrow" onclick="plusSlides(+1)"></button>
                     </div>
                 </div>
             </div>

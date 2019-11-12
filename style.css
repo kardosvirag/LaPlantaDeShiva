@@ -298,6 +298,11 @@ button#senden:hover{
     width: 100%;
 }
 
+.mySlides{
+    display: none;
+}
+
+
 #left_arrow{
     background: url(images/left_arrow.png) no-repeat;
 }
@@ -315,6 +320,16 @@ button#senden:hover{
     top:calc(50% + 50px);
     transform: translateY(-50%);
     margin: 0;
+}
+
+#left_arrow:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.5);
+}
+
+#right_arrow:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.5);
 }
 
 #cast_and_crew{

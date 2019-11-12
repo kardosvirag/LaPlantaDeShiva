@@ -24,3 +24,40 @@ $("nav").find("a").click(function(e) {
     });
 });
 
+//photo gallery
+
+/*var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n){
+    showSlides(slideIndex += n);
+}
+
+function currentSlide(n){
+    showSlides(slideIndex = n);
+}
+*/
+
+function showSlides(){
+    var slides = document.getElementsByClassName("mySlides");
+    
+    slides[1].style.display = "block";
+    /*var i;
+    var slides = document.getElementsByClassName("mySlides");
+   
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+
+    slides[slideIndex].style.display = "block";
+    
+    https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_lightbox
+    https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal_img
+    
+    */
+}
+
+
